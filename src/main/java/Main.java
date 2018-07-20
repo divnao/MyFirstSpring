@@ -25,6 +25,9 @@ public class Main {
         ApplicationContext ac = new ClassPathXmlApplicationContext("sec.xml");
         WelcomeService ws = (WelcomeService) ac.getBean("ws");
         System.out.print(ws.getMes());
+
+        System.out.println("hello github!");
+
     }
 
 }
