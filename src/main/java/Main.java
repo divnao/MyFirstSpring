@@ -24,10 +24,9 @@ public class Main {
         // second spring demo
         ApplicationContext ac = new ClassPathXmlApplicationContext("sec.xml");
         WelcomeService ws = (WelcomeService) ac.getBean("ws");
-        System.out.print(ws.getMes());
+        System.out.println(ws.getMes());
 
         System.out.println("hello huh!");
-
     }
 
 }
