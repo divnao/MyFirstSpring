@@ -26,7 +26,7 @@ public class Main {
         WelcomeService ws = (WelcomeService) ac.getBean("ws");
         System.out.print(ws.getMes());
 
-        System.out.println("hello github!");
+        System.out.println("hello huh!");
 
     }
 
