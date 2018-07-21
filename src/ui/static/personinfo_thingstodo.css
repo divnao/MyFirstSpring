@@ -1,0 +1,17 @@
+/*welcome user style*/
+#hello {
+    float: right;
+    font-size: 15px;
+    position: absolute;
+    right: 80px;
+}
+
+/*page medium content style*/
+#page_medium {
+    padding-top: 20px;
+}
+
+/*button sytle*/
+#btn_person, #btn_todo {
+    border-radius: 5px;
+}
