@@ -11,7 +11,9 @@
     padding-top: 20px;
 }
 
-/*button sytle*/
+/*button style*/
 #btn_person, #btn_todo {
     border-radius: 5px;
+    float: right;
+    margin-right: 20px;
 }
