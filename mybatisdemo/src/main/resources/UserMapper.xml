@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="curdUser">
+    <insert id="insert">
+        insert into users(name, age) VALUES(#{name}, #{age})
+    </insert>
+
+    <update id="update">
+        update users set name=#{name}, age=#{age} where id=#{id}
+    </update>
+
+    <select id="selectOne" parameterType="int" resultType="com.huh.mybatisdemo.domain.User">
+        select * from users where id = #{id}
+    </select>
+
+    <select id="selectAll" resultType="com.huh.mybatisdemo.domain.User">
+        select * from users;
+    </select>
+
+    <!--　连接查询：　查询某个客户的客户信息和该客户的订单信息，一个客户可有对个订单　-->
+    <select id="seleltOne2" resultMap="diyResultMap3">
+        select u.id uid, u.name uname, u.age uage, o.id oid, o.orderno oorderno
+        from users u
+        left outer join orders o
+        on u.id = o.uid
+        where u.id = #{id}
+    </select>
+    <!-- 配置结果集　collection: 表示一对多关联关系，，　ofType：表示集合中每个元素类型 -->
+    <resultMap id="diyResultMap3" type="_User">
+        <id property="id" column="uid"/>
+        <result property="name" column="uname"/>
+        <result property="age" column="uage"/>
+        <collection property="orders" ofType="_Order">
+            <id property="id" column="oid"/>
+            <result property="orderNo" column="oorderno"/>
+        </collection>
+    </resultMap>
+
+</mapper>
