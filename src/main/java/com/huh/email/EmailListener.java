@@ -4,7 +4,7 @@ import org.springframework.context.ApplicationListener;
 import org.springframework.stereotype.Component;
 
 /**
- * MailSendEvent listener.
+ * event listener.
  *
  * @author huh
  */

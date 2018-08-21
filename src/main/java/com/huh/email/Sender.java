@@ -4,11 +4,22 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationContext;
 import org.springframework.stereotype.Component;
 
+/**
+ * event source.
+ *
+ * @author huh
+ */
 @Component("mailSender")
 public class Sender {
 
     @Autowired
     private ApplicationContext applicationContext;
+
+    private String title;
+
+    private String receiver;
+
+    private String content;
 
     public void sendMail(String receiver){
         System.out.println("Sender: sending an email to: " + receiver);

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="collectionInject" class="com.huh.coll.CollectionInject">
+        <property name="myList">
+            <list>
+                <value>"hello"</value>
+                <value>"spring"</value>
+            </list>
+        </property>
+
+        <property name="mySet">
+            <set>
+                <value>"hello"</value>
+                <value>"hello"</value>
+            </set>
+        </property>
+
+        <property name="myMap">
+            <map>
+                <entry key="1" value="hello"/>
+                <entry key="2" value="hello"/>
+                <entry key="2" value="hello"/>
+            </map>
+        </property>
+
+        <property name="myProp">
+            <props>
+                <prop key="1">"hello"</prop>
+                <prop key="2">"hello"</prop>
+            </props>
+        </property>
+    </bean>
+
+</beans>
