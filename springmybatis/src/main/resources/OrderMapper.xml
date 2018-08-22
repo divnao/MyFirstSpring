@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="orders">
+    <insert id="insert">
+        insert into orders(orderno, uid) VALUES(#{orderNo}, #{user.id})
+    </insert>
+
+    <insert id="update">
+        update orders set orderno=#{orderNo}, uid=#{user.id} where id=#{id}
+    </insert>
+
+    <delete id="delete">
+        delete from orders where id=#{id}
+    </delete>
+
+    <select id="selectOne" parameterType="int" resultType="com.huh.springmybatis.domain.Order">
+        select * from orders where id = #{id}
+    </select>
+
+    <!-- 连接查询: 查询某一订单号的订单信息和对应的客户信息(2张表)　-->
+    <select id="selectOne2" parameterType="int" resultMap="diyResutlMap">
+        select
+          o.id oid, o.orderno oorderno, o.uid ouid, u.name uname, u.age uage
+        from orders o
+        left outer join users u
+        on o.uid = u.id
+        where o.id = #{id}
+    </select>
+    <!-- 定义连接查询的结果集 -->
+    <resultMap id="diyResutlMap" type="com.huh.springmybatis.domain.Order">
+        <id property="id" column="oid" />
+        <result property="orderNo" column="oorderno" />
+        <association property="user" javaType="com.huh.springmybatis.domain.User">
+            <id property="id" column="ouid"/>
+            <result property="name" column="uname"/>
+            <result property="age" column="uage"/>
+        </association>
+    </resultMap>
+
+    <!-- 连接查询 批量：查询每个订单的订单信息和对应的客户信息(2张表) -->
+    <select id="selectAll" resultMap="diyResutlMap2">
+        select
+          o.id oid, o.orderno oorderno, o.uid ouid, u.name uname, u.age uage
+        from orders o
+        left outer join users u
+        on o.uid = u.id
+    </select>
+    <!-- 定义连接查询的结果集 .property对应类中的属性名, column对应查询结果中列的别名-->
+    <resultMap id="diyResutlMap2" type="com.huh.springmybatis.domain.Order">
+        <id property="id" column="oid" />
+        <result property="orderNo" column="oorderno" />
+        <association property="user" javaType="com.huh.springmybatis.domain.User">
+            <id property="id" column="ouid"/>
+            <result property="name" column="uname"/>
+            <result property="age" column="uage"/>
+        </association>
+    </resultMap>
+
+    <!-- 查询某一个订单的信息，该订单的客户信息，　该订单的订单项信息(3表连接查询)  -->
+    <select id="selectOne3" parameterType="int" resultMap="diyResultMap3">
+        select o.id oid, o.orderno oorderno, u.id uid, u.name uname, u.age uage, i.id iid, i.itemname iitemname
+        from orders o
+        left outer join users u on o.uid = u.id
+        left outer join items i on o.id = i.oid
+        where o.id = #{id};
+    </select>
+    <resultMap id="diyResultMap3" type="_Order">
+        <id property="id" column="oid"/>
+        <result property="orderNo" column="oorderno"/>
+        <association property="user" javaType="_User">
+            <id property="id" column="uid"/>
+            <result property="name" column="uname"/>
+            <result property="age" column="uage"/>
+        </association>
+        <collection property="items" ofType="_Item">
+            <id property="id" column="iid"/>
+            <result property="itemName" column="iitemname"/>
+        </collection>
+    </resultMap>
+
+</mapper>
