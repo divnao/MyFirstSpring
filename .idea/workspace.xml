@@ -3,15 +3,31 @@
   <component name="AnalysisUIOptions">
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="springmvcdemo:war exploded" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="7fdfc4e0-5d2b-4e52-b0f0-c3bf43ff3060" name="Default" comment="[feature] add Dao">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+    <list default="true" id="7fdfc4e0-5d2b-4e52-b0f0-c3bf43ff3060" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/springmvcdemo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvcdemo/src/main/java/com/huh/springmvcdemo/controller/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvcdemo/src/main/java/com/huh/springmvcdemo/controller/RegisterController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvcdemo/web/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvcdemo/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springmvcdemo/web/reg.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springmybatis/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springmybatis/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springmybatis/src/main/resources/beans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springmybatis/src/main/resources/beans.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/spring-mybatis/target/" />
     <ignored path="$PROJECT_DIR$/springmybatis/target/" />
     <ignored path="$PROJECT_DIR$/mybatisdemo/target/" />
+    <ignored path="$PROJECT_DIR$/springmvcdemo/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,103 +59,57 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="beans.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springmybatis/src/main/resources/beans.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="21" column="75" selection-start-line="21" selection-start-column="75" selection-end-line="21" selection-end-column="75" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestCurd.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springmybatis/src/test/java/com/huh/springmybatis/test/TestCurd.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="93">
-              <caret line="24" column="20" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="31" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springmybatis/src/main/java/com/huh/springmybatis/domain/User.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="11" column="10" selection-start-line="11" selection-end-line="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="console.sql" pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/f4d08aa4-c38d-461c-a1c8-ec1fecf53143/console.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="81" lean-forward="true" selection-start-line="5" selection-start-column="81" selection-end-line="5" selection-end-column="81" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/springmybatis/pom.xml">
+      <file leaf-file-name="HomeController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springmvcdemo/src/main/java/com/huh/springmvcdemo/controller/HomeController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="64">
-              <caret line="13" column="42" lean-forward="true" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springmybatis/src/main/java/com/huh/springmybatis/service/UserService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="28" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springmybatis/src/main/java/com/huh/springmybatis/service/impl/UserServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="9" column="23" lean-forward="true" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BaseDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springmybatis/src/main/java/com/huh/springmybatis/dao/BaseDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OrderDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springmybatis/src/main/java/com/huh/springmybatis/dao/impl/OrderDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="17" column="60" lean-forward="true" selection-start-line="17" selection-start-column="60" selection-end-line="17" selection-end-column="60" />
+              <caret line="9" column="42" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
               <folding>
-                <element signature="e#451#452#0" expanded="true" />
-                <element signature="e#513#514#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#265#266#0" expanded="true" />
+                <element signature="e#295#296#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springmybatis/src/main/java/com/huh/springmybatis/dao/impl/UserDao.java">
+      <file leaf-file-name="RegisterController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springmvcdemo/src/main/java/com/huh/springmvcdemo/controller/RegisterController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="180">
+              <caret line="12" column="21" lean-forward="true" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
               <folding>
-                <element signature="e#490#491#0" expanded="true" />
-                <element signature="e#550#551#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#277#278#0" expanded="true" />
+                <element signature="e#301#302#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springmvcdemo/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springmvcdemo/web/index.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="reg.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/springmvcdemo/web/reg.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="33">
+              <caret line="13" column="7" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -149,12 +119,13 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
         <option value="JavaScript File" />
         <option value="FxmlFile" />
-        <option value="spring-beans.schema" />
         <option value="Interface" />
+        <option value="spring-beans.schema" />
+        <option value="Jsp File" />
+        <option value="HTML File" />
         <option value="Class" />
       </list>
     </option>
@@ -175,16 +146,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/huh/pure_anno/StudentConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/huh/mybatis/CUX_USER.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/first_mybaits_config.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/first_mybits_insert.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/huh/mybatis/CUX_USERS.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/huh/mybatis/User.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/first_mybatis_query_mapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/first_mybatis_insert_mapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/first_mybatis_mapper.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/first_mybatis_config.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/huh/mybatis/Main.java" />
         <option value="$PROJECT_DIR$/spring-mybatis/src/main/java/com/huh/springdemo/app/App.java" />
@@ -212,7 +173,6 @@
         <option value="$PROJECT_DIR$/springmybatis/src/main/java/com/huh/springmybatis/service/BaseService.java" />
         <option value="$PROJECT_DIR$/springmybatis/src/main/java/com/huh/springmybatis/service/UserService.java" />
         <option value="$PROJECT_DIR$/springmybatis/src/main/java/com/huh/springmybatis/service/impl/BaseServiceImpl.java" />
-        <option value="$PROJECT_DIR$/springmybatis/pom.xml" />
         <option value="$PROJECT_DIR$/springmybatis/src/main/resources/MybatisConfig.xml" />
         <option value="$PROJECT_DIR$/springmybatis/src/main/java/com/huh/springmybatis/service/impl/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/springmybatis/src/main/java/com/huh/springmybatis/domain/User.java" />
@@ -223,9 +183,20 @@
         <option value="$PROJECT_DIR$/springmybatis/src/main/java/com/huh/springmybatis/dao/OrderDao.java" />
         <option value="$PROJECT_DIR$/springmybatis/src/main/java/com/huh/springmybatis/dao/UserDao.java" />
         <option value="$PROJECT_DIR$/springmybatis/src/main/java/com/huh/springmybatis/dao/CommonDao.java" />
-        <option value="$PROJECT_DIR$/springmybatis/src/main/resources/beans.xml" />
         <option value="$PROJECT_DIR$/springmybatis/src/test/java/com/huh/springmybatis/test/TestCurd.java" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/f4d08aa4-c38d-461c-a1c8-ec1fecf53143/console.sql" />
+        <option value="$PROJECT_DIR$/springmybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/springmvcdemo/web/WEB-INF/hello.html" />
+        <option value="$PROJECT_DIR$/springmvcdemo/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/springmybatis/src/main/resources/beans.xml" />
+        <option value="$PROJECT_DIR$/springmvcdemo/web/WEB-INF/dispatcher-servlet.xml" />
+        <option value="$PROJECT_DIR$/springmvcdemo/web/WEB-INF/reg.html" />
+        <option value="$PROJECT_DIR$/springmvcdemo/web/index.jsp" />
+        <option value="$PROJECT_DIR$/springmvcdemo/src/main/java/com/huh/springmvcdemo/controller/HomeController.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/springmvcdemo/pom.xml" />
+        <option value="$PROJECT_DIR$/springmvcdemo/src/main/java/com/huh/springmvcdemo/controller/RegisterController.java" />
+        <option value="$PROJECT_DIR$/springmvcdemo/web/reg.jsp" />
       </list>
     </option>
   </component>
@@ -234,6 +205,13 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -282,97 +260,7 @@
             <path>
               <item name="MyFirstSpring" type="b2602c69:ProjectViewProjectNode" />
               <item name="MyFirstSpring" type="462c0819:PsiDirectoryNode" />
-              <item name="springmybatis" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyFirstSpring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyFirstSpring" type="462c0819:PsiDirectoryNode" />
-              <item name="springmybatis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyFirstSpring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyFirstSpring" type="462c0819:PsiDirectoryNode" />
-              <item name="springmybatis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyFirstSpring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyFirstSpring" type="462c0819:PsiDirectoryNode" />
-              <item name="springmybatis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyFirstSpring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyFirstSpring" type="462c0819:PsiDirectoryNode" />
-              <item name="springmybatis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="springmybatis" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyFirstSpring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyFirstSpring" type="462c0819:PsiDirectoryNode" />
-              <item name="springmybatis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="springmybatis" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyFirstSpring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyFirstSpring" type="462c0819:PsiDirectoryNode" />
-              <item name="springmybatis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="springmybatis" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyFirstSpring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyFirstSpring" type="462c0819:PsiDirectoryNode" />
-              <item name="springmybatis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="springmybatis" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyFirstSpring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyFirstSpring" type="462c0819:PsiDirectoryNode" />
-              <item name="springmybatis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="springmybatis" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyFirstSpring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyFirstSpring" type="462c0819:PsiDirectoryNode" />
-              <item name="springmybatis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyFirstSpring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyFirstSpring" type="462c0819:PsiDirectoryNode" />
-              <item name="springmybatis" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyFirstSpring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyFirstSpring" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="springmvcdemo" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -391,18 +279,18 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/springmvcdemo/web" />
       <recent name="$PROJECT_DIR$/springmybatis/src/main/resources" />
       <recent name="$PROJECT_DIR$/src/main/resources" />
       <recent name="$PROJECT_DIR$/src/main/java" />
       <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.huh.springmybatis.domain" />
@@ -427,7 +315,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestCurd.testUserService">
+  <component name="RunManager" selected="Tomcat Server.springmvc-demo">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.huh.mybatisdemo.app.App" />
       <module name="mybatisdemo" />
@@ -583,9 +471,16 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="MyTomCat1" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.90" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="UPDATING_POLICY" value="restart-server" />
-      <deployment />
+    <configuration name="springmvc-demo" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.90" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <deployment>
+        <artifact name="springmvcdemo:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
       <server-settings>
         <option name="BASE_DIRECTORY_NAME" value="Unnamed_MyFirstSpring" />
         <option name="DEPLOY_TOMCAT_APPS" value="true" />
@@ -643,12 +538,17 @@
           <option name="PROGRAM_PARAMETERS" value="" />
         </SHUTDOWN>
       </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="springmvcdemo:war exploded" />
+        </option>
+      </method>
     </configuration>
     <list>
-      <item itemvalue="Tomcat Server.MyTomCat1" />
+      <item itemvalue="Tomcat Server.springmvc-demo" />
+      <item itemvalue="Application.App" />
       <item itemvalue="JUnit.TestCurd.selectFromOrder2" />
       <item itemvalue="JUnit.TestCurd.selectFromOrderOne2" />
-      <item itemvalue="Application.App" />
       <item itemvalue="JUnit.TestCurd.getConn" />
       <item itemvalue="JUnit.TestCurd.testUserService" />
     </list>
@@ -695,7 +595,7 @@
       <workItem from="1534833665969" duration="4113000" />
       <workItem from="1534838154982" duration="12624000" />
       <workItem from="1534862265289" duration="9320000" />
-      <workItem from="1534899904319" duration="19612000" />
+      <workItem from="1534899904319" duration="32519000" />
     </task>
     <task id="LOCAL-00001" summary="v0.2">
       <created>1532085624615</created>
@@ -760,7 +660,14 @@
       <option name="project" value="LOCAL" />
       <updated>1534924775300</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="[feature] remove springdemo">
+      <created>1534925071381</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1534925071381</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -796,14 +703,24 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="155123000" />
+    <option name="totallyTimeSpent" value="168030000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="39" y="27" width="1327" height="741" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
-      <window_info anchor="bottom" id="Application Servers" order="13" weight="0.36239317" />
+      <window_info anchor="bottom" id="Application Servers" order="13" weight="0.3611111" />
       <window_info anchor="right" id="Maven Projects" order="7" weight="0.3286495" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info id="Capture Tool" order="6" />
@@ -813,17 +730,19 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24980484" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.38020834" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.3263889" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3298611" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.14583333" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info id="Image Layers" order="2" />
+      <window_info anchor="bottom" id="Java Enterprise" weight="0.3298611" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32991454" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.7048611" />
-      <window_info anchor="bottom" id="Spring" order="8" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.28993055" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.3298611" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.7760417" />
+      <window_info anchor="bottom" id="Spring" order="8" weight="0.3298611" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.29166666" />
       <window_info anchor="bottom" id="Database Console" order="13" weight="0.10069445" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.11631945" visible="true" weight="0.23497267" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.11631945" visible="true" weight="0.17720531" />
+      <window_info id="Web" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3298611" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info id="Favorites" order="5" side_tool="true" />
@@ -884,7 +803,8 @@
     <MESSAGE value="[feature] add mybatis." />
     <MESSAGE value="[feature] add DaoTemplate" />
     <MESSAGE value="[feature] add Dao" />
-    <option name="LAST_COMMIT_MESSAGE" value="[feature] add Dao" />
+    <MESSAGE value="[feature] remove springdemo" />
+    <option name="LAST_COMMIT_MESSAGE" value="[feature] remove springdemo" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -896,54 +816,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/spring-mybatis/src/main/java/com/huh/springdemo/dao/UserDao.java" />
-    <entry file="file://$PROJECT_DIR$/spring-mybatis/src/main/java/com/huh/springdemo/service/WelcomeService.java" />
-    <entry file="file://$PROJECT_DIR$/spring-mybatis/src/main/resources/beans.xml" />
-    <entry file="file://$PROJECT_DIR$/spring-mybatis/src/main/java/com/huh/springdemo/app/App.java" />
-    <entry file="file://$PROJECT_DIR$/spring-mybatis/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/mybatisdemo/src/main/java/com/huh/mybatisdemo/domain.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/first_mybatis_mapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="35" lean-forward="true" selection-end-line="24" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/first_mybatis_config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="16" selection-end-line="19" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatisdemo/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/dde44915-0b79-4de7-ab98-d9cdcc4e1969/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="46" column="14" selection-end-line="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/dde44915-0b79-4de7-ab98-d9cdcc4e1969/console_1.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="47" column="52" lean-forward="true" selection-end-line="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybatisdemo/src/main/resources/OrderMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="65" column="41" selection-start-line="65" selection-start-column="41" selection-end-line="65" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mybatisdemo/src/main/resources/UserMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -1112,23 +984,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springdemo/src/main/java/com/huh/springdemo/app/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springdemo/src/main/java/com/huh/springdemo/service/WelcomeService.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springdemo/src/main/java/com/huh/springdemo/dao/UserDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis-spring/1.3.1/mybatis-spring-1.3.1-sources.jar!/org/mybatis/spring/SqlSessionFactoryBean.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -1217,13 +1072,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springmybatis/src/main/resources/beans.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="21" column="75" selection-start-line="21" selection-start-column="75" selection-end-line="21" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/springmybatis/src/main/java/com/huh/springmybatis/domain/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -1248,10 +1096,132 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/springdemo/src/main/java/com/huh/springdemo/app/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springdemo/src/main/java/com/huh/springdemo/dao/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springdemo/src/main/java/com/huh/springdemo/service/WelcomeService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/springmybatis/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1082">
+          <caret line="77" lean-forward="true" selection-start-line="77" selection-end-line="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springmybatis/src/main/resources/beans.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="72" lean-forward="true" selection-start-line="12" selection-start-column="4" selection-end-line="13" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.0.8.RELEASE/spring-webmvc-5.0.8.RELEASE.jar!/META-INF/spring.handlers">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.0.8.RELEASE/spring-webmvc-5.0.8.RELEASE.jar!/META-INF/spring.schemas">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springmvcdemo/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="36" lean-forward="true" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springmvcdemo/web/WEB-INF/dispatcher-servlet.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springmvcdemo/web/hello.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="10" lean-forward="true" selection-start-line="7" selection-start-column="10" selection-end-line="7" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springmvcdemo/web/reg.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="14" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springmvcdemo/src/main/java/com/huh/springmvcdemo/controller/HomeController.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="64">
-          <caret line="13" column="42" lean-forward="true" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="42" />
+          <caret line="9" column="42" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#265#266#0" expanded="true" />
+            <element signature="e#295#296#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="46" column="8" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springmvcdemo/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springmvcdemo/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springmvcdemo/src/main/java/com/huh/springmvcdemo/controller/RegisterController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="21" lean-forward="true" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#277#278#0" expanded="true" />
+            <element signature="e#301#302#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springmvcdemo/web/reg.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33">
+          <caret line="13" column="7" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -1261,10 +1231,12 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
+          <last-edited>springmvcdemo:war exploded</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
